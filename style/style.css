@@ -1,0 +1,152 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 85%;
+  height: 100vh;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .stopwath {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .stopwath span {
+  font-family: 'Electronica-Normal';
+  margin-top: 150px;
+  font-size: 15em;
+  color: white;
+}
+
+.wrapper .timeCircle {
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -25px;
+}
+
+.wrapper .timeCircle span {
+  font-family: 'Electronica-Normal';
+  font-size: 3em;
+  color: #ff00d4;
+  top: 400px;
+}
+
+.wrapper .hederCircle {
+  opacity: 0;
+  width: 45%;
+  min-width: 830px;
+  border-bottom: 2px solid white;
+  margin: 0 auto;
+}
+
+.wrapper .hederCircle .circleUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.wrapper .circle {
+  width: 45%;
+  min-width: 830px;
+  padding-top: 10px;
+  margin: 0 auto;
+  height: 45%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.wrapper .circle::-webkit-scrollbar {
+  width: 0px;
+}
+
+.wrapper .circle .laps li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 5px 15px;
+}
+
+.wrapper .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 850px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 0 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: calc(50% - 425px);
+}
+
+.wrapper .controls button {
+  color: white;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 15px;
+  width: 140px;
+  margin: 3px 5px;
+  border-radius: 50px;
+}
+
+.wrapper .controls .start {
+  background-color: #4362ec;
+}
+
+.wrapper .controls .pause {
+  background-color: #ff8800;
+}
+
+.wrapper .controls .stop {
+  background-color: brown;
+}
+
+.wrapper .controls .restart {
+  background-color: #272727;
+}
+
+.wrapper .controls .lap {
+  background-color: #ff00d4;
+}
+
+.wrapper .controls .resetLaps {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

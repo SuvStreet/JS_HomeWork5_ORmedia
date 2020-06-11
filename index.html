@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stopwatch in JS</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./fonts/font.css" />
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/media_queries.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="stopwath"><span>00:00.00</span></div>
+            <div class="timeCircle" id="timeCircle"><span>00:00.00</span></div>
+            <div class="hederCircle" id="hederCircle">
+                <ul class="circleUl">
+                    <li>Круг</li>
+                    <li>Время круга</li>
+                    <li>Общее время</li>
+                </ul>
+            </div>
+            <div class="circle">
+                <ul class="laps"></ul>
+            </div>
+            <div class="controls">
+                <button id="start" class="start">Начать</button>
+                <button id="pause" class="pause">Пауза</button>
+                <button id="stop" class="stop">Стоп</button>
+                <button id="restart" class="restart">Рестарт</button>
+                <button id="lap" class="lap">Интервал</button>
+                <button id="resetLaps" class="resetLaps">Очистить круги</button>
+            </div>
+        </div>
+        <script src="./script/script.js"></script>
+    </body>
+</html>
