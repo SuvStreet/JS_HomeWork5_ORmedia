@@ -64,8 +64,6 @@
         min-width: 830px
         padding-top: 10px
         margin: 0 auto
-        height: 45%
-        overflow-x: hidden
         overflow-y: auto
 
 .wrapper
@@ -80,6 +78,34 @@
                 justify-content: space-between
                 list-style: none
                 padding: 5px 15px
+
+.wrapper
+    .circle
+        .laps
+            li:last-child
+                padding-bottom: 10px
+                
+
+.wrapper
+    .circle
+        .laps
+            li
+                span
+                    font-family: 'Electronica-Normal'
+
+.wrapper 
+    .circle 
+        .laps 
+            li 
+                span:first-child
+                    color: #ff8800
+
+.wrapper 
+    .circle 
+        .laps 
+            li 
+                span:nth-child(2)
+                    color: #ff00d4
 
 .wrapper
     .controls
@@ -132,5 +158,7 @@
             background-color: #ff00d4
 
 
-.wrapper .controls .resetLaps
+.wrapper
+    .controls
+        .resetLaps
             background-color: green

@@ -106,9 +106,7 @@ function lap() {
             (counter < 10 ? "0" + counter : counter) +
             "</span>" +
             getTimerCircle() +
-            "<span>" +
-            getTimer() +
-            "</span>";
+            getTimer();
         lapsContainer.appendChild(li);
 
         counter++;
