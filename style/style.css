@@ -59,7 +59,7 @@
 .wrapper .hederCircle {
   opacity: 0;
   width: 45%;
-  min-width: 830px;
+  width: 830px;
   border-bottom: 2px solid white;
   margin: 0 auto;
 }
@@ -76,8 +76,8 @@
 }
 
 .wrapper .circle {
-  width: 45%;
-  min-width: 830px;
+  width: 830px;
+  height: 60%;
   padding-top: 10px;
   margin: 0 auto;
   overflow-y: auto;
@@ -85,6 +85,10 @@
 
 .wrapper .circle::-webkit-scrollbar {
   width: 0px;
+}
+
+.wrapper .circle .laps {
+  padding-bottom: 80px;
 }
 
 .wrapper .circle .laps li {

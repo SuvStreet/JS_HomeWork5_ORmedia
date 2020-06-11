@@ -6,10 +6,13 @@
         margin-top: 50px;
     }
     .wrapper .hederCircle {
-        min-width: 550px;
+        width: 550px;
     }
     .wrapper .circle {
-        min-width: 550px;
+        width: 550px;
+    }
+    .wrapper .circle .laps{
+        padding-bottom: 120px;
     }
     .wrapper .controls {
         flex-wrap: wrap;
@@ -29,10 +32,13 @@
         font-size: 30px;
     }
     .wrapper .hederCircle {
-        min-width: 350px;
+        width: 350px;
     }
     .wrapper .circle {
-        min-width: 350px;
+        width: 350px;
+    }
+    .wrapper .circle .laps{
+        padding-bottom: 165px;
     }
     .wrapper .controls {
         width: 350px;
@@ -48,11 +54,10 @@
         margin-top: 0px;
     }
     .wrapper .hederCircle {
-        min-width: 250px;
+        width: 250px;
     }
     .wrapper .circle {
-        max-height: 30vh;
-        min-width: 250px;
+        width: 250px;
     }
     .wrapper .controls {
         width: 300px;
